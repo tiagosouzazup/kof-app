@@ -3,22 +3,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
+import Header from './components/Header';
+import Row from './components/Row';
 
 class SinglePage extends React.Component {
     render() {
         return (
             <div>
-                <header>
-                    <span><img src="kof.png"></img></span>
-                    <h1>The King Of Fighters</h1>
-                </header>
+                 <Header/>
                 <table id="tabela">
-                    <tr>
-                        <td>Foto do Personagem</td>
-                        <td>Nome</td>
-                        <td>Local de Origem</td>
-                        <td>Primeira Aparição no Jogo</td>
-                    </tr>
+                    <Row title="batata"/>
                     <tr>
                         <td><img src="iori.jpeg"></img></td>
                         <td>Iori Iagami</td>
