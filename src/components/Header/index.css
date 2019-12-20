@@ -1,0 +1,20 @@
+header {
+    background-color: rgba(165, 42, 42, 0.37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span img {
+    width: 150px;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-bottom: -5px;
+}
+h1 {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: auto;
+    font-size: 70px;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(122, 122, 122);
+}
