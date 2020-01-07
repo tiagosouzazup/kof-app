@@ -2,7 +2,7 @@ import React from 'react';
 
 const Button = () => (
     <button
-        onClick={() => {this.props.handleClick(this.props.label); }}>Cadastrar</button>
+        onClick={() => {this.props.handleClick(this.props.label); }}>novo personagem</button>
 );
 class Personagem extends React.Component {
     constructor(props) {
