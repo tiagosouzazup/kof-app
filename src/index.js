@@ -12,19 +12,6 @@ class SinglePage extends React.Component {
             <div>
                  <Header/>
                 <table id="tabela">
-                    <Row title="batata"/>
-                    <tr>
-                        <td><img src="iori.jpeg"></img></td>
-                        <td>Iori Iagami</td>
-                        <td>Japão</td>
-                        <td>Kof95</td>
-                    </tr>
-                    <tr>
-                        <td><img src="rugal.jpeg"></img></td>
-                        <td>Rugal Bernstein</td>
-                        <td>desconhecido</td>
-                        <td>Kof94</td>
-                    </tr>
                 </table>
             </div>
         );
